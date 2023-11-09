@@ -1,0 +1,18 @@
+[workspace]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+members = [
+    "bs_common/bs_errors",
+    "bs_common/bs_utils",
+    "bs_crates/bs_user",
+    "bs_grpc","bs_demo"
+
+]
+
+[workspace.dependencies]
+tokio = "1"
+anyhow = "1.0"
+axum = "0.6"
+serde_json = "1.0"
+async-di = "0.2.0"
+diesel = { version = "2.1" }
+dotenvy = "0.15"

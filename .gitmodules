@@ -1,0 +1,4 @@
+; [submodule "lib/bs-diesel-utils"]
+; 	path = lib/bs-diesel-utils
+; 	url = https://github.com/BSpaceinc/bs-diesel-utils.git
+;

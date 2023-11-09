@@ -1,0 +1,12 @@
+/target/
+**/*.rs.bk
+.env
+s2_cli.yaml
+*.log
+data
+.vscode
+rls
+.DS_Store
+generated
+.idea
+.lets
